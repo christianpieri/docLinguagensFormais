@@ -30,12 +30,11 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **1.** Um autômato finito deve ser inserido em um arquivo *.txt* no seguinte formato:
 
-<addr>
-	a	b
-\>q0	q1	q0
-*q1	q1	q0
 
-</addr>
+#	a	b
+#>q0	q1	q0
+#*q1	q1	q0
+
 
 - As colunas devem ser delimitadas por tabulação;
 - A primeira linha representa os símbolos das funções de transição;
@@ -46,12 +45,10 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **2.** Uma gramática regular deve ser inserida em um arquivo *.txt* no seguinte formato:
 
-<addr>
- S -> aA | b | bC | &
- A -> aB | bA
- B -> a | aC | bB
- C -> aA | bC | b 
-</addr>
+# S -> aA | b | bC | &
+# A -> aB | bA
+# B -> a | aC | bB
+# C -> aA | bC | b 
 
 *Gramática regular que representa a linguagem {a,b}\* onde o número de a's é divisível por 3*
 
@@ -59,7 +56,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **3.** Uma expressão regular deve ser inserida em um arquivo *.txt* no seguinte formato:
 
-> (a+b)*abb
+# (a+b)*abb
 
 - A operação de "Or" deve ser representada pelo símbolo **+**.
 
