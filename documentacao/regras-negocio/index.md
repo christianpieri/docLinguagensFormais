@@ -7,8 +7,6 @@ layout: default
 Aqui serão detalhados todas as regras de negócio do programa.
 
 
-#### [Escrever AFND](./regras-afnd)
-
 
 
 
