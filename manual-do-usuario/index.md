@@ -2,12 +2,12 @@
 layout: default
 ---
 
-## Bem-vindo(a) ao manual do usuário!
+# Bem-vindo(a) ao manual do usuário!
 
 Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 
-#### Conhecendo o sistema e suas funcionalidades
+## Conhecendo o sistema e suas funcionalidades
 
 **1.** No sistema é possível representar uma linguagem regular de três formas:
 
@@ -26,14 +26,16 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 	- De gramática regular para autômato finito;
 	- De expressão regular para autômato finito.
 
-#### Inserindo as estruturas no sistema
+## Inserindo as estruturas no sistema
 
 **1.** Um autômato finito deve ser inserido em um arquivo *.txt* no seguinte formato:
 
->    a   b
-> \>q0  q1  q0
-> *q1 q1  q0
+<addr>
+	a	b
+\>q0	q1	q0
+*q1	q1	q0
 
+</addr>
 
 - As colunas devem ser delimitadas por tabulação;
 - A primeira linha representa os símbolos das funções de transição;
@@ -44,10 +46,12 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **2.** Uma gramática regular deve ser inserida em um arquivo *.txt* no seguinte formato:
 
-> S -> aA | b | bC | &
-> A -> aB | bA
-> B -> a | aC | bB
-> C -> aA | bC | b 
+<addr>
+ S -> aA | b | bC | &
+ A -> aB | bA
+ B -> a | aC | bB
+ C -> aA | bC | b 
+</addr>
 
 *Gramática regular que representa a linguagem {a,b}\* onde o número de a's é divisível por 3*
 
@@ -69,7 +73,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 > **-o** <nome\_do\_arquivo>
 > **--out** <nome\_do\_arquivo
 
-#### Utilizando as operações na linha de comando
+## Utilizando as operações na linha de comando
 
 **1.** Todas as operações devem utilizar o prefixo **java -jar**.
 
