@@ -62,12 +62,14 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 **4.** A indicação de qual é o arquivo de entrada pode ser feita das seguintes formas:
 
 > **-i** <nome\_do\_arquivo>
-> **--in** <nome\_do\_arquivo
+
+> **--in** <nome\_do\_arquivo>
 
 **5.** A indicação de qual é o arquivo de saída pode ser feita das seguintes formas:
 
 > **-o** <nome\_do\_arquivo>
-> **--out** <nome\_do\_arquivo
+
+> **--out** <nome\_do\_arquivo>
 
 ## Utilizando as operações na linha de comando
 
