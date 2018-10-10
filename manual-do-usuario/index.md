@@ -44,10 +44,10 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **2.** Uma gramática regular deve ser inserida em um arquivo *.txt* no seguinte formato:
 
-> S -> aA | b | bC | &
-> A -> aB | bA
-> B -> a | aC | bB
-> C -> aA | bC | b 
+	 S -> aA | b | bC | &
+	 A -> aB | bA
+	 B -> a | aC | bB
+	 C -> aA | bC | b 
 
 *Gramática regular que representa a linguagem {a,b}\* onde o número de a's é divisível por 3*
 
@@ -55,7 +55,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **3.** Uma expressão regular deve ser inserida em um arquivo *.txt* no seguinte formato:
 
-> (a+b)*abb
+	 (a+b)*abb
 
 - A operação de "Or" deve ser representada pelo símbolo **+**.
 
