@@ -63,13 +63,13 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 > **-i** <nome\_do\_arquivo>
 
-> **--in** <nome\_do\_arquivo>
+> **\--in** <nome\_do\_arquivo>
 
 **5.** A indicação de qual é o arquivo de saída pode ser feita das seguintes formas:
 
 > **-o** <nome\_do\_arquivo>
 
-> **--out** <nome\_do\_arquivo>
+> **-\-out** <nome\_do\_arquivo>
 
 ## Utilizando as operações na linha de comando
 
@@ -79,13 +79,13 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 | Operação | Comandos |
 | -------- | -------- |
-| Determinização | **-d** ou **--determinizar** |
-| Minimização | **-m** ou **--minimizar** |
-| Converter de AFD para GR | **-a2g** ou **--gr2af** |
-| Converter GR para AFND | **-g2a** ou **--gr2af** |
-| Converter ER para AFD | **-e2a** ou **--er2af** | 
-| União entre AFs | **-aua** ou **--union** |
-| Intersecção entre AFs | **-aia** ou **--intersection** | 
+| Determinização | **-d** ou **-\-determinizar** |
+| Minimização | **-m** ou **-\-minimizar** |
+| Converter de AFD para GR | **-a2g** ou **-\-gr2af** |
+| Converter GR para AFND | **-g2a** ou **-\-gr2af** |
+| Converter ER para AFD | **-e2a** ou **\--er2af** | 
+| União entre AFs | **-aua** ou **\--union** |
+| Intersecção entre AFs | **-aia** ou **\--intersection** | 
 
 
 **2.** A expressão geral para realizar uma operação com um arquivo de entrada e um arquivo de saída é:
@@ -96,7 +96,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 > java -jar <comando\_da\_operação> **-i** <nome\_do\_arquivo_1> <nome\_do\_arquivo_2> **-o** <nome\_do\_arquivo>
 
-**4.** Para obter ajuda, utilizar os comandos **-h** ou **--help**. 
+**4.** Para obter ajuda, utilizar os comandos **-h** ou **\--help**. 
 
 <br>
 [Voltar](../)

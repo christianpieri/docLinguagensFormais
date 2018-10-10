@@ -24,9 +24,5 @@ Um autômato finito determinístico é um autômato finito que gera um único ra
 
 Um autômato finito não determinístico é um autômato finito que pode gerar vários ramos de computação para uma palavra de entrada. A palavra faz parte da linguagem reconhecida pelo autômato se algum dos ramos resultar em um estado de aceitação no final da computação.
 
-### 2. Regras
-
-**1.** 
-
 <br>
 [Voltar](./)
