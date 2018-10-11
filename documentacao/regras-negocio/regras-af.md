@@ -4,9 +4,7 @@ layout: default
 
 ### 1. Autômato finito
 
-Este requisito descreve os comportamentos de um autômato finito e suas variantes.
-
-Um autômato finito é uma máquina de estados que pode ser representado formalmente por uma quíntupla (**Q**,**Σ**,**δ**,***q0**,**F**), onde:
+Um autômato finito é uma máquina de estados que pode ser representado formalmente por uma quíntupla (**Q**,**Σ**,**δ**,**q0**,**F**), onde:
 
 - **Q** é um conjunto finito de estados;
 - **Σ** é o alfabeto do autômato, que é representado por um conjunto finito de símbolos;
@@ -24,7 +22,16 @@ Um autômato finito determinístico é um autômato finito que gera um único ra
 
 Um autômato finito não determinístico é um autômato finito que pode gerar vários ramos de computação para uma palavra de entrada. A palavra faz parte da linguagem reconhecida pelo autômato se algum dos ramos resultar em um estado de aceitação no final da computação.
 
-validação: se o estado for um conjunto de 1 elemento é afd
+### 2. Estruturas de dados utilizadas
+
+**1.** Apenas uma classe foi utilizada para implementar os autômatos finitos determinísticos e não determinísticos. A diferenciação não foi necessária pois ambos são autômatos finitos, logo possuem a mesma estrutura. 
+
+- Para diferenciar AFDs de AFNDs, verificamos a existência do símbolo **&** e, em caso negativo, verificamos cada conjunto imagem das funções de transição de cada estado. Na existência de um conjunto não unitário é caracterizado o não determinismo.
+
+### 3. Regras
+
+**1.** 
+
 
 <br>
 [Voltar](./)
