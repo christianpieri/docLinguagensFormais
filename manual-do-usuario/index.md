@@ -7,7 +7,7 @@ layout: default
 Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 
-## Conhecendo o sistema e suas funcionalidades
+## 1. Conhecendo o sistema e suas funcionalidades
 
 **1.** No sistema é possível representar uma linguagem regular de três formas:
 
@@ -26,7 +26,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 	- De gramática regular para autômato finito;
 	- De expressão regular para autômato finito.
 
-## Inserindo as estruturas no sistema
+## 2. Inserindo as estruturas no sistema
 
 **1.** Um autômato finito deve ser inserido em um arquivo *.txt* no seguinte formato:
 
@@ -71,7 +71,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 > **-\-out** <nome\_do\_arquivo>
 
-## Utilizando as operações na linha de comando
+## 3. Utilizando as operações na linha de comando
 
 **1.** Todas as operações devem utilizar o prefixo **java -jar**.
 

@@ -22,15 +22,30 @@ Um autômato finito determinístico é um autômato finito que gera um único ra
 
 Um autômato finito não determinístico é um autômato finito que pode gerar vários ramos de computação para uma palavra de entrada. A palavra faz parte da linguagem reconhecida pelo autômato se algum dos ramos resultar em um estado de aceitação no final da computação.
 
-### 2. Estruturas de dados utilizadas
+### 2. Implementação
 
 **1.** Apenas uma classe foi utilizada para implementar os autômatos finitos determinísticos e não determinísticos. A diferenciação não foi necessária pois ambos são autômatos finitos, logo possuem a mesma estrutura. 
 
 - Para diferenciar AFDs de AFNDs, verificamos a existência do símbolo **&** e, em caso negativo, verificamos cada conjunto imagem das funções de transição de cada estado. Na existência de um conjunto não unitário é caracterizado o não determinismo.
 
-### 3. Regras
+**2.** Para a representação de um estado, é utilizada a classe *State*, que possui como atributos um identificador e um nome.
 
-**1.** 
+**4.** Para a representação de um símbolo, é utilizada a classe *Symbol*, que possui como atributo um caractere que representa o símbolo.
+
+**3.** Um autômato finito possui os seguintes atributos:
+
+- **initialState**: é do tipo *State* e representa o estado inicial;
+- **errorState**: é do tipo *State* e representa um estado de erro;
+- **finalStates**: é um conjunto de objetos do tipo *State* e representa os estados finais;
+- **transitionTable**: é um mapa com a chave sendo um *State* e o valor sendo outro mapa que possui um **Symbol** como chave e um conjunto de objetos do tipo *State* como valor.
+
+**4.** O próprio autômato finito possui as operações realizadas em cima de autômatos. São elas:
+
+- **minimize**: minimiza o autômato;
+- **determinize** determiniza o autômato;
+- **union**: realiza a união de dois autômatos;
+- **intersection**: realiza a intersecção de dois autômatos;
+- **complement**: transforma o autômato em seu complemento.
 
 
 <br>
