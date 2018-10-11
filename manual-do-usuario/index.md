@@ -65,13 +65,19 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 > **\--in** <nome\_do\_arquivo>
 
-**5.** A indicação de qual é o arquivo de saída pode ser feita das seguintes formas:
+## 3. Arquivo de saída
+
+**1.** O arquivo de saída irá apresentar as estruturas de acordo com a sessão **2**, em um arquivo **.txt**.
+
+**2.** O arquivo será criado com o nome especificado na chamada e criado no diretório atual.
+
+**3.** A indicação de qual será o nome do arquivo de saída pode ser feita das seguintes formas:
 
 > **-o** <nome\_do\_arquivo>
 
 > **-\-out** <nome\_do\_arquivo>
 
-## 3. Utilizando as operações na linha de comando
+## 4. Utilizando as operações na linha de comando
 
 **1.** Todas as operações devem utilizar o prefixo **java -jar**.
 
@@ -88,15 +94,15 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 | Intersecção entre AFs | **-aia** ou **\--intersection** | 
 
 
-**2.** A expressão geral para realizar uma operação com um arquivo de entrada e um arquivo de saída é:
+**3.** A expressão geral para realizar uma operação com um arquivo de entrada e um arquivo de saída é:
 
 > java -jar <comando\_da\_operação> **-i** <nome\_do\_arquivo> **-o** <nome\_do\_arquivo>
 
-**3.** A expressão geral para realizar uma operação com dois arquivos de entrada e um arquivo de saída é:
+**4.** A expressão geral para realizar uma operação com dois arquivos de entrada e um arquivo de saída é:
 
 > java -jar <comando\_da\_operação> **-i** <nome\_do\_arquivo_1> <nome\_do\_arquivo_2> **-o** <nome\_do\_arquivo>
 
-**4.** Para obter ajuda, utilizar os comandos **-h** ou **\--help**. 
+**5.** Para obter ajuda, utilizar os comandos **-h** ou **\--help**. 
 
 <br>
 [Voltar](../)

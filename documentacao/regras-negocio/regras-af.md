@@ -30,16 +30,16 @@ Um autômato finito não determinístico é um autômato finito que pode gerar v
 
 **2.** Para a representação de um estado, é utilizada a classe *State*, que possui como atributos um identificador e um nome.
 
-**4.** Para a representação de um símbolo, é utilizada a classe *Symbol*, que possui como atributo um caractere que representa o símbolo.
+**3.** Para a representação de um símbolo, é utilizada a classe *Symbol*, que possui como atributo um caractere que representa o símbolo.
 
-**3.** Um autômato finito possui os seguintes atributos:
+**4.** Um autômato finito possui os seguintes atributos:
 
 - **initialState**: é do tipo *State* e representa o estado inicial;
 - **errorState**: é do tipo *State* e representa um estado de erro;
 - **finalStates**: é um conjunto de objetos do tipo *State* e representa os estados finais;
 - **transitionTable**: é um mapa com a chave sendo um *State* e o valor sendo outro mapa que possui um **Symbol** como chave e um conjunto de objetos do tipo *State* como valor.
 
-**4.** O próprio autômato finito possui as operações realizadas em cima de autômatos. São elas:
+**5.** O próprio autômato finito possui as operações realizadas em cima de autômatos. São elas:
 
 - **minimize**: minimiza o autômato;
 - **determinize** determiniza o autômato;
@@ -47,6 +47,7 @@ Um autômato finito não determinístico é um autômato finito que pode gerar v
 - **intersection**: realiza a intersecção de dois autômatos;
 - **complement**: transforma o autômato em seu complemento.
 
+**6.** Ao executar alguma operação, o autômato que a executou será alterado de forma a receber o resultado da operação. Ou seja, não é criado um autômato novo para armazenar o resultado. 
 
 <br>
 [Voltar](./)

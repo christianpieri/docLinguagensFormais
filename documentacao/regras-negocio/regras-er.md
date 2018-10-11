@@ -12,6 +12,6 @@ Uma expressão regular é uma representação dos padrões que as palavras de um
 
 A expressão regular admite o uso de parênteses. O operador de fechamento tem maior precedência, seguido da concatenação e união.
 
-### 2. Estruturas de dados utilizadas
+### 2. Implementação
 
 **1.** Para representar uma expressão regular é necessário apenas um atributo do tipo *String*.
