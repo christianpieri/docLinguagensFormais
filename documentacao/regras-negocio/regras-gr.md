@@ -13,7 +13,7 @@ Uma gramática regular é um sistema gerador de linguagens regulares. É formado
 
 Uma produção de uma gramática regular possui a seguinte forma:
 
-> **P** = {A → aX | A ∈ **N**, a ∈ **T** ∧ X ∈ **N**} 
+**P** = {A → aX | A ∈ **N**, a ∈ **T** ∧ X ∈ **N**} 
 
 Um símbolo não terminal pode derivar em zero ou mais passos um conjunto de símbolos terminais e não terminais.
 Um símbolo terminal, como o próprio nome indica, não irá mais derivar outro símbolo.
