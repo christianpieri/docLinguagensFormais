@@ -29,6 +29,8 @@ A expressão regular admite o uso de parênteses. O operador de fechamento tem m
 - **right**: é do tipo *Node* e representa o nodo vizinho a direita;
 - **value**: é um caracter que representa o valor do nodo.
 
+Para a construção da árvore utilizamos a operação **convertToPostFix**, que Transforma a string da expressão regular para a notação posfixa, tornando fácil a execução das operações utilizando pilhas para armazenar os operadores e operandos.
+
 **2.** A partir desta árvore, são necessárias quatro operações nos nodos para a obtenção do autômato: 
 
 - **nullable**: é a verificação se um determinado nó é anulável, e por consequência a sua subárvore também será. Ele será utilizado depois na produção dos *firstPos* e *lastPos* da ávore.
