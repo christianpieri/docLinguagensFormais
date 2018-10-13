@@ -26,6 +26,8 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 	- De gramática regular para autômato finito;
 	- De expressão regular para autômato finito.
 
+**3.** Para rodar o sistema é necessário possuir uma instalação do *Java runtime* na versão **10** ou superior.
+
 ## 2. Inserindo as estruturas no sistema
 
 **1.** Um autômato finito deve ser inserido em um arquivo *.txt* no seguinte formato:
@@ -53,6 +55,8 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 - O símbolo *epsilon* deve ser representado pelo símbolo **&**.
 
+- O sistema aceita apenas **gramáticas regulares**. Gramáticas de outros tipos não serão inseridas no sistema.
+
 **3.** Uma expressão regular deve ser inserida em um arquivo *.txt* no seguinte formato:
 
 	 (a+b)*abb
@@ -79,7 +83,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 ## 4. Utilizando as operações na linha de comando
 
-**1.** Todas as operações devem utilizar o prefixo **java -jar**.
+**1.** Todas as operações devem utilizar o prefixo **java -jar trabalho.jar**.
 
 **2.** Os comandos de cada operação são os seguintes:
 
@@ -96,11 +100,11 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 **3.** A expressão geral para realizar uma operação com um arquivo de entrada e um arquivo de saída é:
 
-> java -jar <comando\_da\_operação> **-i** <nome\_do\_arquivo> **-o** <nome\_do\_arquivo>
+> java -jar *trabalho.jar* <comando\_da\_operação> **-i** <nome\_do\_arquivo\_entrada> **-o** <nome\_do\_arquivo\_saída>
 
 **4.** A expressão geral para realizar uma operação com dois arquivos de entrada e um arquivo de saída é:
 
-> java -jar <comando\_da\_operação> **-i** <nome\_do\_arquivo_1> <nome\_do\_arquivo_2> **-o** <nome\_do\_arquivo>
+> java -jar *trabalho.jar* <comando\_da\_operação> **-i** <nome\_do\_arquivo_entrada\_1> <nome\_do\_arquivo_entrada\_2> **-o** <nome\_do\_arquivo\_saída>
 
 **5.** Para obter ajuda, utilizar os comandos **-h** ou **\--help**. 
 
