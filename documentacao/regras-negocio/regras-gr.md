@@ -6,10 +6,10 @@ layout: default
 
 Uma gramática regular é um sistema gerador de linguagens regulares. É formado por uma quádrupla (**N**, **T**, **P**, **S**), onde:
 
-- **N** conjunto de símbolos não terminais;
-- **T** conjunto de símbolos terminais;
-- **P** conjunto finito de produções;
-- **S** símbolo inicial.
+- **N** é o conjunto de símbolos não terminais;
+- **T** é o conjunto de símbolos terminais;
+- **P** é o conjunto finito de produções;
+- **S** é o símbolo inicial.
 
 Uma produção de uma gramática regular possui a seguinte forma:
 
