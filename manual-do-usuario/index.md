@@ -67,7 +67,7 @@ Aqui serão detalhados todas as funcionalidades do sistema e como utilizá-las.
 
 > **-i** <nome\_do\_arquivo>
 
-> **\--in** <nome\_do\_arquivo>
+> **\--input** <nome\_do\_arquivo>
 
 ## 3. Arquivo de saída
 
