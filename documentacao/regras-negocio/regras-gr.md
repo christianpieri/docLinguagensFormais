@@ -30,9 +30,7 @@ Um símbolo terminal, como o próprio nome indica, não irá mais derivar outro 
 
 - **productions**: representa as produções da gramática. É composto por um mapa que possui uma chave do tipo *Symbol* representando o não terminal do lado esquerdo da produção e um valor que é um conjunto de objetos do tipo *ProductionRule*, representando o lado direito da produção.
 
-**3.** Se um símbolo não terminal possui várias derivações, cada uma delas é representada por uma entrada em **productions**.
-
-**4.** Uma gramática regular pode realizar a seguinte operação:
+**3.** Uma gramática regular pode realizar a seguinte operação:
 
 - **toFiniteAutomata**: converte a gramática regular em um autômato finito.
 
