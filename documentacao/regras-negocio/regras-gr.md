@@ -35,3 +35,6 @@ Um símbolo terminal, como o próprio nome indica, não irá mais derivar outro 
 **4.** Uma gramática regular pode realizar a seguinte operação:
 
 - **toFiniteAutomata**: converte a gramática regular em um autômato finito.
+
+<br>
+[Voltar](./)

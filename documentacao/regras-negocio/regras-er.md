@@ -39,7 +39,7 @@ Para a construção da árvore utilizamos a operação **convertToPostFix**, que
 
 - **lastPos**: é a função que verifica as ultimas posições possíveis de cada nó. É calculado recursivamente e conforme a necessidade. Ele é utilizado nos calculos do *followPos*.
 
-- o **followPos**: é o calculo das possíveis posições seguintes representadas por cada nodo folha i da árvore. A partir dele conseguimos montar o conjunto "DStates", dizer quais são os estados do AFD resultanteS e suas respectivas transições.
+- o **followPos**: é o calculo das possíveis posições seguintes representadas por cada nodo folha i da árvore. A partir dele conseguimos montar o conjunto "DStates", dizer quais são os estados do AFD resultantes e suas respectivas transições.
 
 **2.** Os resultados destas operações são salvos como atributos de uma expressão regular:
 
@@ -56,3 +56,6 @@ Para a construção da árvore utilizamos a operação **convertToPostFix**, que
 - **computeFollowPos**.
 
 Após realizá-las, é chamada a operação **buildFiniteAutomata**, que monta o autômato finito de acordo com as operações realizadas.
+
+<br>
+[Voltar](./)
